@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Hub - Main</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/3e73aa0c60.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="columns is-widescreen has-background-white-ter">
+    <!-- menu lateral -->
+    <aside class="menu column is-2">
+      <!-- logo -->
+      <figure class="image is-128x128 mx-auto my-auto">
+        <img src="icons/LOGO.svg">
+      </figure>
+
+      <ul class="menu-list">
+        <li>
+          <a class="button is-medium is-link is-inverted is-rounded mx-4 p-2" href="#">
+            <span class="icon">
+              <i class="fas fa-home"></i>
+            </span>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a class="button is-medium is-link is-inverted is-rounded m-4 p-2" href="#">
+            <span class="icon">
+              <i class="fas fa-chart-line"></i>
+            </span>
+            <span>Trendings</span>
+          </a>
+        </li>
+        <li>
+          <a class="button is-medium is-link is-inverted is-rounded m-4 p-2" href="#">
+            <span class="icon">
+              <i class="fas fa-bookmark"></i>
+            </span>
+            <span>Saved</span>
+          </a>
+        </li>
+        <li>
+          <a class="button is-medium is-link is-inverted is-rounded m-4 p-2" href="#">
+            <span class="icon">
+              <i class="fas fa-history"></i>
+            </span>
+            <span>History</span>
+          </a>
+        </li>
+        <li>
+          <a class="button is-medium is-link is-inverted is-rounded m-4 p-2" href="#">
+            <span class="icon">
+              <i class="fas fa-cog"></i>
+            </span>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <!-- foto de perfil -->
+          <figure class="image is-128x128 mx-auto my-6 is-rounded">
+            <img class="is-rounded" src="icons/dog.jpg">
+            <figcaption>@administrador</figcaption>
+          </figure>
+          <a class="button is-medium is-danger is-inverted is-rounded m-2 p-2" href="/">
+            <span class="icon">
+              <i class="fas fa-sign-out-alt"></i>
+            </span>
+            <span>Log out</span>
+          </a>
+        </li>
+      </ul>
+
+    </aside>
+
+    <main class="column is-10">
+      <!-- barra de busca -->
+      <div class="field container">
+        <p class="control has-icons-left m-6">
+          <input class="input is-rounded is-link" type="text" placeholder="What are you look for?">
+          <span class="icon is-small is-left">
+            <i class="fas fa-search"></i>
+          </span>
+        </p>
+      </div>
+
+      <!-- card adm -->
+      <div class="card m-4">
+
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="icons/dog.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Administração</p>
+              <p class="subtitle is-6">@adm</p>
+            </div>
+          </div>
+
+          <div class="content">
+            Time de desenvolvimento: Higor, Greyson, Ryan, Matheus.
+            <br>
+            <time datetime="2021-12-20">11:09 PM - 20 Jan 2021</time>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- cartão / postagem -->
+      <div class="card mx-4 mb-4">
+
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="icons/user.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Frank</p>
+              <p class="subtitle is-6">@frankcd</p>
+            </div>
+          </div>
+
+          <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus nec iaculis mauris. <a>@adm</a>.
+            <a href="#">#css</a> <a href="#">#responsive</a>
+            <br>
+            <time datetime="2021-12-20">11:09 PM - 20 Jan 2021</time>
+          </div>
+
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="icons/books.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</body>
+
+</html>
